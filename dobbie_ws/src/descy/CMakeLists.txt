@@ -22,6 +22,7 @@ install(
 # Add Python executable
 install(PROGRAMS
   scripts/gui.py
+  scripts/tesseract.py
   DESTINATION lib/${PROJECT_NAME}
 )
 

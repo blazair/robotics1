@@ -322,14 +322,14 @@ ament_cmake_symlink_install_files("/home/blazar/workspaces/dobbie_ws/src/descy" 
 # install(FILES "/home/blazar/workspaces/dobbie_ws/build/descy/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/descy" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 ament_cmake_symlink_install_files("/home/blazar/workspaces/dobbie_ws/src/descy" FILES "/home/blazar/workspaces/dobbie_ws/build/descy/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/descy" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
-# install(FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/descy/environment")
-ament_cmake_symlink_install_files("/home/blazar/workspaces/dobbie_ws/src/descy" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/descy/environment")
+# install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/descy/environment")
+ament_cmake_symlink_install_files("/home/blazar/workspaces/dobbie_ws/src/descy" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/descy/environment")
 
 # install(FILES "/home/blazar/workspaces/dobbie_ws/build/descy/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/descy/environment")
 ament_cmake_symlink_install_files("/home/blazar/workspaces/dobbie_ws/src/descy" FILES "/home/blazar/workspaces/dobbie_ws/build/descy/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/descy/environment")
 
-# install(FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/descy/environment")
-ament_cmake_symlink_install_files("/home/blazar/workspaces/dobbie_ws/src/descy" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/descy/environment")
+# install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/descy/environment")
+ament_cmake_symlink_install_files("/home/blazar/workspaces/dobbie_ws/src/descy" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/descy/environment")
 
 # install(FILES "/home/blazar/workspaces/dobbie_ws/build/descy/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/descy/environment")
 ament_cmake_symlink_install_files("/home/blazar/workspaces/dobbie_ws/src/descy" FILES "/home/blazar/workspaces/dobbie_ws/build/descy/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/descy/environment")

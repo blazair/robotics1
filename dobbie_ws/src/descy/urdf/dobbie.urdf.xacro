@@ -28,7 +28,7 @@
       <origin xyz="7.567392064132539e-05 0.004514279129206783 0.03887041668750017"
               rpy="-2.962441408225233 -1.5680409623316962 -1.7467263101041604"/>
       <geometry>
-        <mesh filename="${mesh_path}/converted_base_mesh.stl"/>
+        <mesh filename="${mesh_path}/base_mesh.stl"/>
       </geometry>
       <material name="white"/>
     </visual>
@@ -36,7 +36,7 @@
       <origin xyz="7.567392064132539e-05 0.004514279129206783 0.03887041668750017"
               rpy="-2.962441408225233 -1.5680409623316962 -1.7467263101041604"/>
       <geometry>
-        <mesh filename="${mesh_path}/converted_base_mesh.stl"/>
+        <mesh filename="${mesh_path}/base_mesh.stl"/>
       </geometry>
     </collision>
   </link>
@@ -61,7 +61,7 @@
       <origin xyz="-8.583630464704256e-06 0.007648649651831126 -0.014266912057221488"
               rpy="-1.5652545899663657 -1.518025120993771 -1.5759784889015487"/>
       <geometry>
-        <mesh filename="${mesh_path}/converted_link1_mesh.stl"/>
+        <mesh filename="${mesh_path}/link1_mesh.stl"/>
       </geometry>
       <material name="white"/>
     </visual>
@@ -69,7 +69,7 @@
       <origin xyz="-8.583630464704256e-06 0.007648649651831126 -0.014266912057221488"
               rpy="-1.5652545899663657 -1.518025120993771 -1.5759784889015487"/>
       <geometry>
-        <mesh filename="${mesh_path}/converted_link1_mesh.stl"/>
+        <mesh filename="${mesh_path}/link1_mesh.stl"/>
       </geometry>
     </collision>
   </link>
@@ -97,7 +97,7 @@
       <origin xyz="4.940319681255925e-05 -0.007261484107870785 0.09345555499374657"
               rpy="0.05365179981860118 -0.008747444451175479 0.06403379882506219"/>
       <geometry>
-        <mesh filename="${mesh_path}/converted_link2_mesh.stl"/>
+        <mesh filename="${mesh_path}/link2_mesh.stl"/>
       </geometry>
       <material name="white"/>
     </visual>
@@ -105,7 +105,7 @@
       <origin xyz="4.940319681255925e-05 -0.007261484107870785 0.09345555499374657"
               rpy="0.05365179981860118 -0.008747444451175479 0.06403379882506219"/>
       <geometry>
-        <mesh filename="${mesh_path}/converted_link2_mesh.stl"/>
+        <mesh filename="${mesh_path}/link2_mesh.stl"/>
       </geometry>
     </collision>
   </link>
@@ -133,7 +133,7 @@
       <origin xyz="3.566404692852132e-06 -0.0649863487859142 0.008036945726251493"
               rpy="1.6580773132277526 0.00011419959347480635 0.00016929457412240279"/>
       <geometry>
-        <mesh filename="${mesh_path}/converted_link3_mesh.stl"/>
+        <mesh filename="${mesh_path}/link3_mesh.stl"/>
       </geometry>
       <material name="white"/>
     </visual>
@@ -141,7 +141,7 @@
       <origin xyz="3.566404692852132e-06 -0.0649863487859142 0.008036945726251493"
               rpy="1.6580773132277526 0.00011419959347480635 0.00016929457412240279"/>
       <geometry>
-        <mesh filename="${mesh_path}/converted_link3_mesh.stl"/>
+        <mesh filename="${mesh_path}/link3_mesh.stl"/>
       </geometry>
     </collision>
   </link>
@@ -169,7 +169,7 @@
       <origin xyz="8.542424324572279e-06 -0.03411307078902251 -0.006038689095171135"
               rpy="1.3881086882909015 0.003921029036773049 0.0007426984677866288"/>
       <geometry>
-        <mesh filename="${mesh_path}/converted_link4_mesh.stl"/>
+        <mesh filename="${mesh_path}/link4_mesh.stl"/>
       </geometry>
       <material name="white"/>
     </visual>
@@ -177,7 +177,7 @@
       <origin xyz="8.542424324572279e-06 -0.03411307078902251 -0.006038689095171135"
               rpy="1.3881086882909015 0.003921029036773049 0.0007426984677866288"/>
       <geometry>
-        <mesh filename="${mesh_path}/converted_link4_mesh.stl"/>
+        <mesh filename="${mesh_path}/link4_mesh.stl"/>
       </geometry>
     </collision>
   </link>
@@ -205,7 +205,7 @@
       <origin xyz="-8.670593571825924e-06 -0.002949778371189593 -0.06210356829321821"
               rpy="-0.03931949901759166 5.812106912839177e-05 0.011601086068503979"/>
       <geometry>
-        <mesh filename="${mesh_path}/converted_link5_mesh.stl"/>
+        <mesh filename="${mesh_path}/link5_mesh.stl"/>
       </geometry>
       <material name="white"/>
     </visual>
@@ -213,7 +213,7 @@
       <origin xyz="-8.670593571825924e-06 -0.002949778371189593 -0.06210356829321821"
               rpy="-0.03931949901759166 5.812106912839177e-05 0.011601086068503979"/>
       <geometry>
-        <mesh filename="${mesh_path}/converted_link5_mesh.stl"/>
+        <mesh filename="${mesh_path}/link5_mesh.stl"/>
       </geometry>
     </collision>
   </link>

@@ -20,11 +20,6 @@ def generate_launch_description():
         description="Absolute path to robot URDF file"
     )
 
-    gazebo_resource_path = SetEnvironmentVariable(
-        name="GZ_SIM_RESOURCE_PATH",
-        value=[str(Path(descy_package).parent.resolve())]
-    )
-
     robot_description = ParameterValue(
         Command(["xacro ", LaunchConfiguration("model")]),
         value_type=str
@@ -47,30 +42,6 @@ def generate_launch_description():
         name="rviz2",
         output="screen",
         arguments=["-d", rviz_config_file]
-    )
-
-    gazebo = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource([
-            os.path.join(get_package_share_directory("ros_gz_sim"), "launch"),
-            "/gz_sim.launch.py"
-        ]),
-        launch_arguments=[
-            ("gz_args", [" -v 4 -r empty.sdf "])
-        ]
-    )
-
-    gz_spawn_entity = Node(
-        package="ros_gz_sim",
-        executable="create",
-        output="screen",
-        arguments=["-topic", "robot_description", "-entity", "dobbie"]
-    )
-
-    gz_ros2_bridge = Node(
-        package="ros_gz_bridge",
-        executable="parameter_bridge",
-        arguments=["/clock@rosgraph_msgs/msg/Clock[gz.msgs.Clock"],
-        output="screen"
     )
 
     gui_node = Node(
@@ -105,12 +76,8 @@ def generate_launch_description():
 
     return LaunchDescription([
         model_arg,
-        gazebo_resource_path,
         robot_state_publisher_node,
         rviz_node,
-        gazebo,
-        gz_spawn_entity,
-        gz_ros2_bridge,
         gui_node,
         ros2_control_node,
         joint_state_spawner,

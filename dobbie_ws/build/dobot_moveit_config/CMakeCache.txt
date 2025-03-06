@@ -245,52 +245,52 @@ Python3_EXECUTABLE:FILEPATH=/usr/bin/python3
 SITE:STRING=zennie
 
 //The directory containing a CMake configuration file for ament_cmake.
-ament_cmake_DIR:PATH=/opt/ros/jazzy/share/ament_cmake/cmake
+ament_cmake_DIR:PATH=/opt/ros/humble/share/ament_cmake/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_core.
-ament_cmake_core_DIR:PATH=/opt/ros/jazzy/share/ament_cmake_core/cmake
+ament_cmake_core_DIR:PATH=/opt/ros/humble/share/ament_cmake_core/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_export_definitions.
-ament_cmake_export_definitions_DIR:PATH=/opt/ros/jazzy/share/ament_cmake_export_definitions/cmake
+ament_cmake_export_definitions_DIR:PATH=/opt/ros/humble/share/ament_cmake_export_definitions/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_export_dependencies.
-ament_cmake_export_dependencies_DIR:PATH=/opt/ros/jazzy/share/ament_cmake_export_dependencies/cmake
+ament_cmake_export_dependencies_DIR:PATH=/opt/ros/humble/share/ament_cmake_export_dependencies/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_export_include_directories.
-ament_cmake_export_include_directories_DIR:PATH=/opt/ros/jazzy/share/ament_cmake_export_include_directories/cmake
+ament_cmake_export_include_directories_DIR:PATH=/opt/ros/humble/share/ament_cmake_export_include_directories/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_export_interfaces.
-ament_cmake_export_interfaces_DIR:PATH=/opt/ros/jazzy/share/ament_cmake_export_interfaces/cmake
+ament_cmake_export_interfaces_DIR:PATH=/opt/ros/humble/share/ament_cmake_export_interfaces/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_export_libraries.
-ament_cmake_export_libraries_DIR:PATH=/opt/ros/jazzy/share/ament_cmake_export_libraries/cmake
+ament_cmake_export_libraries_DIR:PATH=/opt/ros/humble/share/ament_cmake_export_libraries/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_export_link_flags.
-ament_cmake_export_link_flags_DIR:PATH=/opt/ros/jazzy/share/ament_cmake_export_link_flags/cmake
+ament_cmake_export_link_flags_DIR:PATH=/opt/ros/humble/share/ament_cmake_export_link_flags/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_export_targets.
-ament_cmake_export_targets_DIR:PATH=/opt/ros/jazzy/share/ament_cmake_export_targets/cmake
+ament_cmake_export_targets_DIR:PATH=/opt/ros/humble/share/ament_cmake_export_targets/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_gen_version_h.
-ament_cmake_gen_version_h_DIR:PATH=/opt/ros/jazzy/share/ament_cmake_gen_version_h/cmake
+ament_cmake_gen_version_h_DIR:PATH=/opt/ros/humble/share/ament_cmake_gen_version_h/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_include_directories.
-ament_cmake_include_directories_DIR:PATH=/opt/ros/jazzy/share/ament_cmake_include_directories/cmake
+ament_cmake_include_directories_DIR:PATH=/opt/ros/humble/share/ament_cmake_include_directories/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_libraries.
-ament_cmake_libraries_DIR:PATH=/opt/ros/jazzy/share/ament_cmake_libraries/cmake
+ament_cmake_libraries_DIR:PATH=/opt/ros/humble/share/ament_cmake_libraries/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_python.
-ament_cmake_python_DIR:PATH=/opt/ros/jazzy/share/ament_cmake_python/cmake
+ament_cmake_python_DIR:PATH=/opt/ros/humble/share/ament_cmake_python/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_target_dependencies.
-ament_cmake_target_dependencies_DIR:PATH=/opt/ros/jazzy/share/ament_cmake_target_dependencies/cmake
+ament_cmake_target_dependencies_DIR:PATH=/opt/ros/humble/share/ament_cmake_target_dependencies/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_test.
-ament_cmake_test_DIR:PATH=/opt/ros/jazzy/share/ament_cmake_test/cmake
+ament_cmake_test_DIR:PATH=/opt/ros/humble/share/ament_cmake_test/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_version.
-ament_cmake_version_DIR:PATH=/opt/ros/jazzy/share/ament_cmake_version/cmake
+ament_cmake_version_DIR:PATH=/opt/ros/humble/share/ament_cmake_version/cmake
 
 //Value Computed by CMake
 dobot_moveit_config_BINARY_DIR:STATIC=/home/blazar/workspaces/dobbie_ws/build/dobot_moveit_config
@@ -315,9 +315,9 @@ CMAKE_CACHEFILE_DIR:INTERNAL=/home/blazar/workspaces/dobbie_ws/build/dobot_movei
 //Major version of cmake used to create the current loaded cache
 CMAKE_CACHE_MAJOR_VERSION:INTERNAL=3
 //Minor version of cmake used to create the current loaded cache
-CMAKE_CACHE_MINOR_VERSION:INTERNAL=28
+CMAKE_CACHE_MINOR_VERSION:INTERNAL=22
 //Patch version of cmake used to create the current loaded cache
-CMAKE_CACHE_PATCH_VERSION:INTERNAL=3
+CMAKE_CACHE_PATCH_VERSION:INTERNAL=1
 //ADVANCED property for variable: CMAKE_COLOR_MAKEFILE
 CMAKE_COLOR_MAKEFILE-ADVANCED:INTERNAL=1
 //Path to CMake executable.
@@ -418,7 +418,7 @@ CMAKE_RANLIB-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_READELF
 CMAKE_READELF-ADVANCED:INTERNAL=1
 //Path to CMake installation.
-CMAKE_ROOT:INTERNAL=/usr/share/cmake-3.28
+CMAKE_ROOT:INTERNAL=/usr/share/cmake-3.22
 //ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS
 CMAKE_SHARED_LINKER_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS_DEBUG
@@ -452,7 +452,7 @@ CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding Python3
-FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/usr/bin/python3][cfound components: Interpreter ][v3.12.3()]
+FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/usr/bin/python3][cfound components: Interpreter ][v3.10.12()]
 //linker supports push/pop state
 _CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED:INTERNAL=TRUE
 //Compiler reason failure

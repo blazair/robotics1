@@ -8,7 +8,7 @@ Panels:
       Expanded:
         - /Global Options1
       Splitter Ratio: 0.5
-    Tree Height: 631
+    Tree Height: 544
   - Class: rviz_common/Views
     Expanded:
       - /Current View1
@@ -26,52 +26,29 @@ Panels:
     Name: Tool Properties
     Splitter Ratio: 0.5
   - Class: rviz_common/Displays
-    Help Height: 70
+    Help Height: 138
     Name: Displays
     Property Tree Widget:
       Expanded: ~
       Splitter Ratio: 0.5
-    Tree Height: 369
+    Tree Height: 270
 Visualization Manager:
   Class: ""
   Displays:
     - Class: rviz_default_plugins/TF
-      Enabled: true
-      Filter (blacklist): ""
-      Filter (whitelist): ""
+      Enabled: false
       Frame Timeout: 15
       Frames:
         All Enabled: true
-        base:
-          Value: true
-        fifth:
-          Value: true
-        first:
-          Value: true
-        fourth:
-          Value: true
-        second:
-          Value: true
-        third:
-          Value: true
-        world:
-          Value: true
       Marker Scale: 1
       Name: TF
       Show Arrows: true
       Show Axes: true
       Show Names: false
       Tree:
-        world:
-          base:
-            first:
-              second:
-                third:
-                  fourth:
-                    fifth:
-                      {}
+        {}
       Update Interval: 0
-      Value: true
+      Value: false
     - Alpha: 0.5
       Class: rviz_default_plugins/RobotModel
       Collision Enabled: false
@@ -95,27 +72,27 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
-        fifth:
+        link1:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        first:
+        link2:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        fourth:
+        link3:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        second:
+        link4:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        third:
+        link5:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -185,9 +162,9 @@ Visualization Manager:
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: -0.56788569688797
-        Y: 1.4652628898620605
-        Z: -0.05577060580253601
+        X: -0.4150920808315277
+        Y: 0.659681499004364
+        Z: -0.23420453071594238
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
@@ -204,7 +181,7 @@ Window Geometry:
   Height: 1242
   Hide Left Dock: false
   Hide Right Dock: false
-  QMainWindow State: 000000ff00000000fd0000000100000000000001560000047cfc0200000006fb000000100044006900730070006c006100790073010000003f000002b7000000cc00fffffffb0000001c005400720061006e00730066006f0072006d006100740069006f006e000000015a000001d10000007e00fffffffb0000000a0056006900650077007301000002fc000001bf000000a900fffffffb0000001200530065006c0065006300740069006f006e00000002cd0000008e0000005d00fffffffb0000001e0054006f006f006c002000500072006f00700065007200740069006500730000000342000000cd0000005d00fffffffb000000100044006900730070006c00610079007300000002e20000012d000000cc00ffffff000006620000047c00000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  QMainWindow State: 000000ff00000000fd0000000100000000000001f70000043efc0200000006fb000000100044006900730070006c006100790073010000006e0000028e0000018200fffffffb0000001c005400720061006e00730066006f0072006d006100740069006f006e000000015a000001d1000000ec00fffffffb0000000a005600690065007700730100000308000001a40000013200fffffffb0000001200530065006c0065006300740069006f006e00000002cd0000008e000000b000fffffffb0000001e0054006f006f006c002000500072006f00700065007200740069006500730000000342000000cd000000b000fffffffb000000100044006900730070006c00610079007300000002e20000012d0000018200ffffff000005bb0000043e00000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
   Selection:
     collapsed: false
   Tool Properties:
@@ -214,5 +191,5 @@ Window Geometry:
   Views:
     collapsed: false
   Width: 1982
-  X: -235
+  X: 76
   Y: 429
