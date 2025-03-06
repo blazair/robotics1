@@ -1,0 +1,113 @@
+[0.000000] (-) TimerEvent: {}
+[0.000591] (descy) JobQueued: {'identifier': 'descy', 'dependencies': OrderedDict()}
+[0.000626] (descy) JobStarted: {'identifier': 'descy'}
+[0.010702] (descy) JobProgress: {'identifier': 'descy', 'progress': 'cmake'}
+[0.011143] (descy) JobProgress: {'identifier': 'descy', 'progress': 'build'}
+[0.011606] (descy) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/blazar/workspaces/dobbie_ws/build/descy', '--', '-j16', '-l16'], 'cwd': '/home/blazar/workspaces/dobbie_ws/build/descy', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'blazar'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/blazar'), ('OLDPWD', '/home/blazar/workspaces'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1133'), ('SYSTEMD_EXEC_PID', '2050'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7837'), ('COLCON_PREFIX_PATH', '/home/blazar/workspaces/dobbie_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'blazar'), ('JOURNAL_STREAM', '8:12798'), ('_', '/home/blazar/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'blazar'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/blazar/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/thinlinc/bin:/home/blazar/.local/bin:/home/blazar/.local/bin'), ('SESSION_MANAGER', 'local/zennie:@/tmp/.ICE-unix/1452,unix/zennie:/tmp/.ICE-unix/1452'), ('INVOCATION_ID', '57db2a8ddd504216a706ca4ff09fd25d'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:af5d678a-4be1-43c9-b148-a77c87c491ae'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/blazar/workspaces/dobbie_ws/build/descy'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/blazar/workspaces/dobbie_ws/install/descy:/opt/ros/humble')]), 'shell': False}
+[0.037541] (descy) StderrLine: {'line': b"gmake: Warning: File 'Makefile' has modification time 24982 s in the future\n"}
+[0.099850] (-) TimerEvent: {}
+[0.150412] (descy) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199944] (-) TimerEvent: {}
+[0.242612] (descy) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.251188] (descy) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300064] (-) TimerEvent: {}
+[0.310688] (descy) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.315824] (descy) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.316273] (descy) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.316782] (descy) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.319494] (descy) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.384431] (descy) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.389793] (descy) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.390017] (descy) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.390354] (descy) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.394420] (descy) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400134] (-) TimerEvent: {}
+[0.442897] (descy) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.492169] (descy) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.500220] (-) TimerEvent: {}
+[0.524550] (descy) StdoutLine: {'line': b'-- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.562282] (descy) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.567569] (descy) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.576692] (descy) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.589298] (descy) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.600300] (-) TimerEvent: {}
+[0.605796] (descy) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.630551] (descy) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.643295] (descy) StdoutLine: {'line': b'-- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)\n'}
+[0.645568] (descy) StdoutLine: {'line': b'-- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)\n'}
+[0.657159] (descy) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[0.658269] (descy) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[0.658440] (descy) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.700379] (-) TimerEvent: {}
+[0.703016] (descy) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.706379] (descy) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.749861] (descy) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.773592] (descy) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include  \n'}
+[0.800462] (-) TimerEvent: {}
+[0.809728] (descy) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.821117] (descy) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.891054] (descy) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.891284] (descy) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.900545] (-) TimerEvent: {}
+[0.951898] (descy) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.952769] (descy) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.000626] (-) TimerEvent: {}
+[1.100831] (-) TimerEvent: {}
+[1.126955] (descy) StdoutLine: {'line': b'-- Found rviz2: 11.2.14 (/opt/ros/humble/share/rviz2/cmake)\n'}
+[1.128832] (descy) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.197304] (descy) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.200909] (-) TimerEvent: {}
+[1.201410] (descy) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.201788] (descy) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.202273] (descy) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.204314] (descy) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.205487] (descy) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.210843] (descy) StdoutLine: {'line': b'-- Generating done\n'}
+[1.212506] (descy) StdoutLine: {'line': b'-- Build files have been written to: /home/blazar/workspaces/dobbie_ws/build/descy\n'}
+[1.236168] (descy) StderrLine: {'line': b'gmake: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[1.238565] (descy) CommandEnded: {'returncode': 0}
+[1.239102] (descy) JobProgress: {'identifier': 'descy', 'progress': 'install'}
+[1.247230] (descy) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/blazar/workspaces/dobbie_ws/build/descy'], 'cwd': '/home/blazar/workspaces/dobbie_ws/build/descy', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'blazar'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/blazar'), ('OLDPWD', '/home/blazar/workspaces'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1133'), ('SYSTEMD_EXEC_PID', '2050'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7837'), ('COLCON_PREFIX_PATH', '/home/blazar/workspaces/dobbie_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'blazar'), ('JOURNAL_STREAM', '8:12798'), ('_', '/home/blazar/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'blazar'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/blazar/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/thinlinc/bin:/home/blazar/.local/bin:/home/blazar/.local/bin'), ('SESSION_MANAGER', 'local/zennie:@/tmp/.ICE-unix/1452,unix/zennie:/tmp/.ICE-unix/1452'), ('INVOCATION_ID', '57db2a8ddd504216a706ca4ff09fd25d'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:af5d678a-4be1-43c9-b148-a77c87c491ae'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/blazar/workspaces/dobbie_ws/build/descy'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/blazar/workspaces/dobbie_ws/install/descy:/opt/ros/humble')]), 'shell': False}
+[1.252760] (descy) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.253154] (descy) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.253421] (descy) StdoutLine: {'line': b'-- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/launch/digital_twin.launch.py\n'}
+[1.260640] (descy) StdoutLine: {'line': b'-- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/launch/display.launch.py\n'}
+[1.267560] (descy) StdoutLine: {'line': b'-- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/launch/gazebo.launch.py\n'}
+[1.274490] (descy) StdoutLine: {'line': b'-- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/meshes/base.stl\n'}
+[1.281342] (descy) StdoutLine: {'line': b'-- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/meshes/converted_base_mesh.stl\n'}
+[1.288115] (descy) StdoutLine: {'line': b'-- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/meshes/converted_link1_mesh.stl\n'}
+[1.295144] (descy) StdoutLine: {'line': b'-- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/meshes/converted_link2_mesh.stl\n'}
+[1.300994] (-) TimerEvent: {}
+[1.301904] (descy) StdoutLine: {'line': b'-- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/meshes/converted_link3_mesh.stl\n'}
+[1.308837] (descy) StdoutLine: {'line': b'-- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/meshes/converted_link4_mesh.stl\n'}
+[1.315980] (descy) StdoutLine: {'line': b'-- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/meshes/converted_link5_mesh.stl\n'}
+[1.322675] (descy) StdoutLine: {'line': b'-- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/meshes/fifth.stl\n'}
+[1.330007] (descy) StdoutLine: {'line': b'-- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/meshes/first.stl\n'}
+[1.337572] (descy) StdoutLine: {'line': b'-- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/meshes/fourth.stl\n'}
+[1.344697] (descy) StdoutLine: {'line': b'-- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/meshes/second.stl\n'}
+[1.351784] (descy) StdoutLine: {'line': b'-- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/meshes/third.stl\n'}
+[1.358980] (descy) StdoutLine: {'line': b'-- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/urdf/dobbie.urdf.xacro\n'}
+[1.366289] (descy) StdoutLine: {'line': b'-- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/rviz/display.rviz\n'}
+[1.373370] (descy) StdoutLine: {'line': b'-- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/scripts/gui.py\n'}
+[1.380113] (descy) StdoutLine: {'line': b'-- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/worlds/empty.sdf\n'}
+[1.386986] (descy) StdoutLine: {'line': b'-- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/lib/descy/gui.py\n'}
+[1.393554] (descy) StdoutLine: {'line': b'-- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/ament_index/resource_index/package_run_dependencies/descy\n'}
+[1.400481] (descy) StdoutLine: {'line': b'-- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/ament_index/resource_index/parent_prefix_path/descy\n'}
+[1.401055] (-) TimerEvent: {}
+[1.407329] (descy) StdoutLine: {'line': b'-- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/environment/ament_prefix_path.sh\n'}
+[1.413929] (descy) StdoutLine: {'line': b'-- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/environment/ament_prefix_path.dsv\n'}
+[1.420707] (descy) StdoutLine: {'line': b'-- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/environment/path.sh\n'}
+[1.427516] (descy) StdoutLine: {'line': b'-- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/environment/path.dsv\n'}
+[1.434785] (descy) StdoutLine: {'line': b'-- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/local_setup.bash\n'}
+[1.441923] (descy) StdoutLine: {'line': b'-- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/local_setup.sh\n'}
+[1.449181] (descy) StdoutLine: {'line': b'-- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/local_setup.zsh\n'}
+[1.456486] (descy) StdoutLine: {'line': b'-- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/local_setup.dsv\n'}
+[1.463753] (descy) StdoutLine: {'line': b'-- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/package.dsv\n'}
+[1.471203] (descy) StdoutLine: {'line': b'-- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/ament_index/resource_index/packages/descy\n'}
+[1.477983] (descy) StdoutLine: {'line': b'-- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/cmake/descyConfig.cmake\n'}
+[1.485459] (descy) StdoutLine: {'line': b'-- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/cmake/descyConfig-version.cmake\n'}
+[1.492300] (descy) StdoutLine: {'line': b'-- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/package.xml\n'}
+[1.501112] (descy) CommandEnded: {'returncode': 0}
+[1.501497] (-) TimerEvent: {}
+[1.520042] (descy) JobEnded: {'identifier': 'descy', 'rc': 0}
+[1.520579] (-) EventReactorShutdown: {}

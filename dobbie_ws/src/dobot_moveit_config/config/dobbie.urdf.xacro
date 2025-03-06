@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="dobbie">
+    <xacro:arg name="initial_positions_file" default="initial_positions.yaml" />
+
+    <!-- Import dobbie urdf file -->
+    <xacro:include filename="$(find descy)/urdf/dobbie.urdf.xacro" />
+
+    <!-- Import control_xacro -->
+    <xacro:include filename="dobbie.ros2_control.xacro" />
+
+
+    <xacro:dobbie_ros2_control name="FakeSystem" initial_positions_file="$(arg initial_positions_file)"/>
+
+</robot>

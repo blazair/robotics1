@@ -1,0 +1,275 @@
+<?xml version="1.0"?>
+<robot name="dobbie" xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <group number="10">
+    <member name="Sayali"/>
+    <member name="Dheeraj"/>
+    <member name="Bharath"/>
+  </group>
+
+  <!-- Optional: A convenient property for our mesh path. -->
+  <xacro:property name="mesh_path" value="package://descy/meshes"/>
+
+  <!--
+    A fixed joint anchoring the 'base' link to a 'world' frame.
+    This preserves the original structure where 'world' was a link.
+  -->
+  <link name="world"/>
+
+  <link name="base">
+    <inertial>
+      <origin xyz="7.567392064132539e-05 0.004514279129206783 0.03887041668750017"
+              rpy="-2.962441408225249 -1.5680409623316962 -1.7467263101041444"/>
+      <mass value="3.5429520437434583"/>
+      <inertia ixx="0.012838754384041091" iyy="0.008071188964428357" izz="0.007383346397336186"
+               ixy="0" ixz="0" iyz="0"/>
+    </inertial>
+    <visual name="base_mesh">
+      <origin xyz="7.567392064132539e-05 0.004514279129206783 0.03887041668750017"
+              rpy="-2.962441408225233 -1.5680409623316962 -1.7467263101041604"/>
+      <geometry>
+        <mesh filename="${mesh_path}/converted_base_mesh.stl"/>
+      </geometry>
+      <material name="white"/>
+    </visual>
+    <collision name="base_collision">
+      <origin xyz="7.567392064132539e-05 0.004514279129206783 0.03887041668750017"
+              rpy="-2.962441408225233 -1.5680409623316962 -1.7467263101041604"/>
+      <geometry>
+        <mesh filename="${mesh_path}/converted_base_mesh.stl"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Fix base to world -->
+  <joint name="world_to_base" type="fixed">
+    <parent link="world"/>
+    <child link="base"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <!-- ==================== LINK1 ==================== -->
+  <link name="link1">
+    <inertial>
+      <origin xyz="-8.583630464704256e-06 0.007648649651831126 -0.014266912057221488"
+              rpy="-1.5652545899663657 -1.518025120993771 -1.5759784889015487"/>
+      <mass value="1.9846474678023103"/>
+      <inertia ixx="0.005620062618842091" iyy="0.004247774127525234" izz="0.002315140293898488"
+               ixy="0" ixz="0" iyz="0"/>
+    </inertial>
+    <visual name="link1_mesh">
+      <origin xyz="-8.583630464704256e-06 0.007648649651831126 -0.014266912057221488"
+              rpy="-1.5652545899663657 -1.518025120993771 -1.5759784889015487"/>
+      <geometry>
+        <mesh filename="${mesh_path}/converted_link1_mesh.stl"/>
+      </geometry>
+      <material name="white"/>
+    </visual>
+    <collision name="link1_collision">
+      <origin xyz="-8.583630464704256e-06 0.007648649651831126 -0.014266912057221488"
+              rpy="-1.5652545899663657 -1.518025120993771 -1.5759784889015487"/>
+      <geometry>
+        <mesh filename="${mesh_path}/converted_link1_mesh.stl"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Revolute joint #1: base -> link1 -->
+  <joint name="joint1" type="revolute">
+    <parent link="base"/>
+    <child link="link1"/>
+    <origin xyz="0.0 0.0 0.12201" rpy="0.0 0.0 0.0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-3.141592653589793" upper="3.141592653589793"
+           effort="100" velocity="100"/>
+  </joint>
+
+  <!-- ==================== LINK2 ==================== -->
+  <link name="link2">
+    <inertial>
+      <origin xyz="4.940319681255925e-05 -0.007261484107870785 0.09345555499374657"
+              rpy="0.05365179981860117 -0.008747444451175257 0.06403379882506219"/>
+      <mass value="0.8790832303613103"/>
+      <inertia ixx="0.0024693054939380955" iyy="0.002436726201152135" izz="0.0003027233375120942"
+               ixy="0" ixz="0" iyz="0"/>
+    </inertial>
+    <visual name="link2_mesh">
+      <origin xyz="4.940319681255925e-05 -0.007261484107870785 0.09345555499374657"
+              rpy="0.05365179981860118 -0.008747444451175479 0.06403379882506219"/>
+      <geometry>
+        <mesh filename="${mesh_path}/converted_link2_mesh.stl"/>
+      </geometry>
+      <material name="white"/>
+    </visual>
+    <collision name="link2_collision">
+      <origin xyz="4.940319681255925e-05 -0.007261484107870785 0.09345555499374657"
+              rpy="0.05365179981860118 -0.008747444451175479 0.06403379882506219"/>
+      <geometry>
+        <mesh filename="${mesh_path}/converted_link2_mesh.stl"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Revolute joint #2: link1 -> link2 -->
+  <joint name="joint2" type="revolute">
+    <parent link="link1"/>
+    <child link="link2"/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+    <axis xyz="1 0 0"/>
+    <limit lower="-3.141592653589793" upper="3.141592653589793"
+           effort="100" velocity="100"/>
+  </joint>
+
+  <!-- ==================== LINK3 ==================== -->
+  <link name="link3">
+    <inertial>
+      <origin xyz="3.566404692852132e-06 -0.0649863487859142 0.008036945726251493"
+              rpy="1.6580773132277526 0.00011419959347480635 0.00016929457412240279"/>
+      <mass value="0.5913958726933283"/>
+      <inertia ixx="0.002591101562997314" iyy="0.002498226592441781" izz="0.00015818569588658005"
+               ixy="0" ixz="0" iyz="0"/>
+    </inertial>
+    <visual name="link3_mesh">
+      <origin xyz="3.566404692852132e-06 -0.0649863487859142 0.008036945726251493"
+              rpy="1.6580773132277526 0.00011419959347480635 0.00016929457412240279"/>
+      <geometry>
+        <mesh filename="${mesh_path}/converted_link3_mesh.stl"/>
+      </geometry>
+      <material name="white"/>
+    </visual>
+    <collision name="link3_collision">
+      <origin xyz="3.566404692852132e-06 -0.0649863487859142 0.008036945726251493"
+              rpy="1.6580773132277526 0.00011419959347480635 0.00016929457412240279"/>
+      <geometry>
+        <mesh filename="${mesh_path}/converted_link3_mesh.stl"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Revolute joint #3: link2 -> link3 -->
+  <joint name="joint3" type="revolute">
+    <parent link="link2"/>
+    <child link="link3"/>
+    <origin xyz="0.0 -0.02 0.15" rpy="0.0 0.0 0.0"/>
+    <axis xyz="1 0 0"/>
+    <limit lower="-3.141592653589793" upper="3.141592653589793"
+           effort="100" velocity="100"/>
+  </joint>
+
+  <!-- ==================== LINK4 ==================== -->
+  <link name="link4">
+    <inertial>
+      <origin xyz="8.542424324572279e-06 -0.03411307078902251 -0.006038689095171135"
+              rpy="1.388108688290901 0.003921029036773049 0.0007426984677867399"/>
+      <mass value="0.22945401433140447"/>
+      <inertia ixx="0.00013556439721052258" iyy="0.00011891655632190785" izz="3.1403774184215085e-05"
+               ixy="0" ixz="0" iyz="0"/>
+    </inertial>
+    <visual name="link4_mesh">
+      <origin xyz="8.542424324572279e-06 -0.03411307078902251 -0.006038689095171135"
+              rpy="1.3881086882909015 0.003921029036773049 0.0007426984677866288"/>
+      <geometry>
+        <mesh filename="${mesh_path}/converted_link4_mesh.stl"/>
+      </geometry>
+      <material name="white"/>
+    </visual>
+    <collision name="link4_collision">
+      <origin xyz="8.542424324572279e-06 -0.03411307078902251 -0.006038689095171135"
+              rpy="1.3881086882909015 0.003921029036773049 0.0007426984677866288"/>
+      <geometry>
+        <mesh filename="${mesh_path}/converted_link4_mesh.stl"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Revolute joint #4: link3 -> link4 -->
+  <joint name="joint4" type="revolute">
+    <parent link="link3"/>
+    <child link="link4"/>
+    <origin xyz="0.0 -0.165 0.0" rpy="0.0 0.0 0.0"/>
+    <axis xyz="1 0 0"/>
+    <limit lower="-3.141592653589793" upper="3.141592653589793"
+           effort="100" velocity="100"/>
+  </joint>
+
+  <!-- ==================== LINK5 ==================== -->
+  <link name="link5">
+    <inertial>
+      <origin xyz="-8.670593571825924e-06 -0.002949778371189593 -0.06210356829321821"
+              rpy="-0.03931949901759166 5.812106912839177e-05 0.011601086068503979"/>
+      <mass value="0.12358713538666422"/>
+      <inertia ixx="3.518546253434828e-05" iyy="3.5005956525548805e-05" izz="2.874470587320804e-05"
+               ixy="0" ixz="0" iyz="0"/>
+    </inertial>
+    <visual name="link5_mesh">
+      <origin xyz="-8.670593571825924e-06 -0.002949778371189593 -0.06210356829321821"
+              rpy="-0.03931949901759166 5.812106912839177e-05 0.011601086068503979"/>
+      <geometry>
+        <mesh filename="${mesh_path}/converted_link5_mesh.stl"/>
+      </geometry>
+      <material name="white"/>
+    </visual>
+    <collision name="link5_collision">
+      <origin xyz="-8.670593571825924e-06 -0.002949778371189593 -0.06210356829321821"
+              rpy="-0.03931949901759166 5.812106912839177e-05 0.011601086068503979"/>
+      <geometry>
+        <mesh filename="${mesh_path}/converted_link5_mesh.stl"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Revolute joint #5: link4 -> link5 -->
+  <joint name="joint5" type="revolute">
+    <parent link="link4"/>
+    <child link="link5"/>
+    <origin xyz="0.0 -0.055 0.0" rpy="0.0 0.0 0.0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-3.141592653589793" upper="3.141592653589793"
+           effort="100" velocity="100"/>
+  </joint>
+
+  <!-- Simple white material definition -->
+  <material name="white">
+    <color rgba="1 1 1 1"/>
+  </material>
+
+  <!-- Include the gazebo_ros_control plugin -->
+  <gazebo>
+    <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
+      <robotNamespace>/dobbie</robotNamespace>
+    </plugin>
+  </gazebo>
+
+  <!-- ros2_control configuration -->
+<ros2_control name="descy_controller" type="system">
+  <hardware>
+    <!-- Use a fake (simulated) hardware interface -->
+    <plugin>ros2_control_sim/fake_system</plugin>
+    <param name="update_rate" value="100.0" />
+  </hardware>
+  <!-- Define each controlled joint and the interfaces it uses -->
+  <joint name="joint1">
+    <command_interface type="position"/>
+    <state_interface type="position"/>
+  </joint>
+  <joint name="joint2">
+    <command_interface type="position"/>
+    <state_interface type="position"/>
+  </joint>
+  <joint name="joint3">
+    <command_interface type="position"/>
+    <state_interface type="position"/>
+  </joint>
+  <joint name="joint4">
+    <command_interface type="position"/>
+    <state_interface type="position"/>
+  </joint>
+  <joint name="joint5">
+    <command_interface type="position"/>
+    <state_interface type="position"/>
+  </joint>
+</ros2_control>
+
+
+
+</robot>

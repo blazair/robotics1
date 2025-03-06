@@ -1,0 +1,56 @@
+[0.010s] Invoking command in '/home/blazar/workspaces/dobbie_ws/build/descy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/blazar/workspaces/arduinobot_ws/install/arduinobot_py_examples:/home/blazar/workspaces/cartip_ws/install/ralpoley:/home/blazar/workspaces/cartip_ws/install/cart_pole_optimal_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/blazar/workspaces/dobbie_ws/build/descy -- -j16 -l16
+[0.056s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.205s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.218s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.242s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.249s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.259s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.270s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.292s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.304s] -- Found xacro: 2.0.11 (/opt/ros/jazzy/share/xacro/cmake)
+[0.305s] -- Found robot_state_publisher: 3.3.3 (/opt/ros/jazzy/share/robot_state_publisher/cmake)
+[0.351s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.352s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.402s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.562s] -- Found rviz2: 14.1.7 (/opt/ros/jazzy/share/rviz2/cmake)
+[0.563s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.624s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.627s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.627s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.627s] -- Added test 'lint_cmake' to check CMake code style
+[0.627s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.629s] -- Added test 'xmllint' to check XML markup files
+[0.630s] -- Configuring done (0.6s)
+[0.636s] -- Generating done (0.0s)
+[0.638s] -- Build files have been written to: /home/blazar/workspaces/dobbie_ws/build/descy
+[0.659s] Invoked command in '/home/blazar/workspaces/dobbie_ws/build/descy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/blazar/workspaces/arduinobot_ws/install/arduinobot_py_examples:/home/blazar/workspaces/cartip_ws/install/ralpoley:/home/blazar/workspaces/cartip_ws/install/cart_pole_optimal_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/blazar/workspaces/dobbie_ws/build/descy -- -j16 -l16
+[0.666s] Invoking command in '/home/blazar/workspaces/dobbie_ws/build/descy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/blazar/workspaces/arduinobot_ws/install/arduinobot_py_examples:/home/blazar/workspaces/cartip_ws/install/ralpoley:/home/blazar/workspaces/cartip_ws/install/cart_pole_optimal_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/blazar/workspaces/dobbie_ws/build/descy
+[0.672s] -- Install configuration: ""
+[0.672s] -- Execute custom install script
+[0.672s] -- Up-to-date symlink: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/launch/digital_twin.launch.py
+[0.672s] -- Up-to-date symlink: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/launch/display.launch.py
+[0.673s] -- Up-to-date symlink: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/launch/gazebo.launch.py
+[0.673s] -- Up-to-date symlink: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/meshes/base.stl
+[0.673s] -- Up-to-date symlink: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/meshes/converted_base_mesh.stl
+[0.673s] -- Up-to-date symlink: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/meshes/converted_link1_mesh.stl
+[0.673s] -- Up-to-date symlink: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/meshes/converted_link2_mesh.stl
+[0.673s] -- Up-to-date symlink: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/meshes/converted_link3_mesh.stl
+[0.673s] -- Up-to-date symlink: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/meshes/converted_link4_mesh.stl
+[0.673s] -- Up-to-date symlink: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/meshes/converted_link5_mesh.stl
+[0.673s] -- Up-to-date symlink: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/meshes/fifth.stl
+[0.673s] -- Up-to-date symlink: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/meshes/first.stl
+[0.673s] -- Up-to-date symlink: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/meshes/fourth.stl
+[0.673s] -- Up-to-date symlink: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/meshes/second.stl
+[0.674s] -- Up-to-date symlink: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/meshes/third.stl
+[0.674s] -- Up-to-date symlink: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/urdf/dobbie.urdf.xacro
+[0.674s] -- Up-to-date symlink: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/rviz/display.rviz
+[0.674s] -- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/scripts/gui.py
+[0.680s] [31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:204 (message):
+[0.681s]   ament_cmake_symlink_install_programs() can't find
+[0.681s]   '/home/blazar/workspaces/dobbie_ws/src/descy/scripts/fk_node.py'
+[0.681s] Call Stack (most recent call first):
+[0.681s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:317 (ament_cmake_symlink_install_programs)
+[0.681s]   cmake_install.cmake:46 (include)
+[0.681s] 
+[0.681s] [0m
+[0.682s] Invoked command in '/home/blazar/workspaces/dobbie_ws/build/descy' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/blazar/workspaces/arduinobot_ws/install/arduinobot_py_examples:/home/blazar/workspaces/cartip_ws/install/ralpoley:/home/blazar/workspaces/cartip_ws/install/cart_pole_optimal_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/blazar/workspaces/dobbie_ws/build/descy

@@ -1,0 +1,90 @@
+[0.013s] Invoking command in '/home/blazar/workspaces/dobbie_ws/build/descy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/blazar/workspaces/dobbie_ws/build/descy -- -j16 -l16
+[0.037s] gmake: Warning: File 'Makefile' has modification time 24982 s in the future
+[0.150s] -- The C compiler identification is GNU 11.4.0
+[0.242s] -- The CXX compiler identification is GNU 11.4.0
+[0.251s] -- Detecting C compiler ABI info
+[0.310s] -- Detecting C compiler ABI info - done
+[0.315s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.316s] -- Detecting C compile features
+[0.316s] -- Detecting C compile features - done
+[0.319s] -- Detecting CXX compiler ABI info
+[0.384s] -- Detecting CXX compiler ABI info - done
+[0.389s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.389s] -- Detecting CXX compile features
+[0.390s] -- Detecting CXX compile features - done
+[0.394s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.442s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.492s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.524s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[0.562s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.567s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.576s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.589s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.605s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.630s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.643s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[0.645s] -- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+[0.657s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.658s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.658s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.702s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.706s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.749s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.773s] -- Found FastRTPS: /opt/ros/jazzy/include  
+[0.809s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.821s] -- Looking for pthread.h
+[0.891s] -- Looking for pthread.h - found
+[0.891s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.951s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.952s] -- Found Threads: TRUE  
+[1.126s] -- Found rviz2: 11.2.14 (/opt/ros/humble/share/rviz2/cmake)
+[1.128s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.197s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.201s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.201s] -- Added test 'lint_cmake' to check CMake code style
+[1.202s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.204s] -- Added test 'xmllint' to check XML markup files
+[1.205s] -- Configuring done
+[1.210s] -- Generating done
+[1.212s] -- Build files have been written to: /home/blazar/workspaces/dobbie_ws/build/descy
+[1.236s] gmake: warning:  Clock skew detected.  Your build may be incomplete.
+[1.238s] Invoked command in '/home/blazar/workspaces/dobbie_ws/build/descy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/blazar/workspaces/dobbie_ws/build/descy -- -j16 -l16
+[1.247s] Invoking command in '/home/blazar/workspaces/dobbie_ws/build/descy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/blazar/workspaces/dobbie_ws/build/descy
+[1.252s] -- Install configuration: ""
+[1.253s] -- Execute custom install script
+[1.253s] -- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/launch/digital_twin.launch.py
+[1.260s] -- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/launch/display.launch.py
+[1.267s] -- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/launch/gazebo.launch.py
+[1.274s] -- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/meshes/base.stl
+[1.281s] -- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/meshes/converted_base_mesh.stl
+[1.288s] -- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/meshes/converted_link1_mesh.stl
+[1.295s] -- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/meshes/converted_link2_mesh.stl
+[1.301s] -- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/meshes/converted_link3_mesh.stl
+[1.308s] -- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/meshes/converted_link4_mesh.stl
+[1.315s] -- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/meshes/converted_link5_mesh.stl
+[1.322s] -- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/meshes/fifth.stl
+[1.329s] -- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/meshes/first.stl
+[1.337s] -- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/meshes/fourth.stl
+[1.344s] -- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/meshes/second.stl
+[1.351s] -- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/meshes/third.stl
+[1.358s] -- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/urdf/dobbie.urdf.xacro
+[1.366s] -- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/rviz/display.rviz
+[1.373s] -- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/scripts/gui.py
+[1.380s] -- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/worlds/empty.sdf
+[1.386s] -- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/lib/descy/gui.py
+[1.393s] -- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/ament_index/resource_index/package_run_dependencies/descy
+[1.400s] -- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/ament_index/resource_index/parent_prefix_path/descy
+[1.407s] -- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/environment/ament_prefix_path.sh
+[1.413s] -- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/environment/ament_prefix_path.dsv
+[1.420s] -- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/environment/path.sh
+[1.427s] -- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/environment/path.dsv
+[1.434s] -- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/local_setup.bash
+[1.441s] -- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/local_setup.sh
+[1.449s] -- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/local_setup.zsh
+[1.456s] -- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/local_setup.dsv
+[1.463s] -- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/package.dsv
+[1.471s] -- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/ament_index/resource_index/packages/descy
+[1.477s] -- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/cmake/descyConfig.cmake
+[1.485s] -- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/cmake/descyConfig-version.cmake
+[1.492s] -- Symlinking: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/package.xml
+[1.501s] Invoked command in '/home/blazar/workspaces/dobbie_ws/build/descy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/blazar/workspaces/dobbie_ws/build/descy

@@ -1,0 +1,34 @@
+[0.007s] Invoking command in '/home/blazar/workspaces/dobbie_ws/build/descy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/blazar/workspaces/cartip_ws/install/ralpoley:/home/blazar/workspaces/cartip_ws/install/cart_pole_optimal_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/blazar/workspaces/dobbie_ws/build/descy -- -j16 -l16
+[0.040s] Invoked command in '/home/blazar/workspaces/dobbie_ws/build/descy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/blazar/workspaces/cartip_ws/install/ralpoley:/home/blazar/workspaces/cartip_ws/install/cart_pole_optimal_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/blazar/workspaces/dobbie_ws/build/descy -- -j16 -l16
+[0.047s] Invoking command in '/home/blazar/workspaces/dobbie_ws/build/descy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/blazar/workspaces/cartip_ws/install/ralpoley:/home/blazar/workspaces/cartip_ws/install/cart_pole_optimal_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/blazar/workspaces/dobbie_ws/build/descy
+[0.053s] -- Install configuration: ""
+[0.053s] -- Up-to-date: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/launch
+[0.053s] -- Up-to-date: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/launch/gazebo.launch.py
+[0.053s] -- Up-to-date: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/launch/display.launch.py
+[0.053s] -- Up-to-date: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/meshes
+[0.053s] -- Up-to-date: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/meshes/fifth.stl
+[0.053s] -- Up-to-date: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/meshes/fourth.stl
+[0.053s] -- Up-to-date: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/meshes/second.stl
+[0.053s] -- Up-to-date: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/meshes/first.stl
+[0.053s] -- Up-to-date: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/meshes/base.stl
+[0.053s] -- Up-to-date: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/meshes/third.stl
+[0.053s] -- Up-to-date: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/urdf
+[0.053s] -- Installing: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/urdf/dobbie.urdf.xacro
+[0.053s] -- Up-to-date: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/rviz
+[0.053s] -- Up-to-date: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/rviz/display.rviz
+[0.053s] -- Up-to-date: /home/blazar/workspaces/dobbie_ws/install/descy/share/ament_index/resource_index/package_run_dependencies/descy
+[0.053s] -- Up-to-date: /home/blazar/workspaces/dobbie_ws/install/descy/share/ament_index/resource_index/parent_prefix_path/descy
+[0.053s] -- Up-to-date: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/environment/ament_prefix_path.sh
+[0.053s] -- Up-to-date: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/environment/ament_prefix_path.dsv
+[0.053s] -- Up-to-date: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/environment/path.sh
+[0.054s] -- Up-to-date: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/environment/path.dsv
+[0.054s] -- Up-to-date: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/local_setup.bash
+[0.054s] -- Up-to-date: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/local_setup.sh
+[0.054s] -- Up-to-date: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/local_setup.zsh
+[0.054s] -- Up-to-date: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/local_setup.dsv
+[0.054s] -- Installing: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/package.dsv
+[0.054s] -- Up-to-date: /home/blazar/workspaces/dobbie_ws/install/descy/share/ament_index/resource_index/packages/descy
+[0.054s] -- Up-to-date: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/cmake/descyConfig.cmake
+[0.054s] -- Up-to-date: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/cmake/descyConfig-version.cmake
+[0.054s] -- Up-to-date: /home/blazar/workspaces/dobbie_ws/install/descy/share/descy/package.xml
+[0.055s] Invoked command in '/home/blazar/workspaces/dobbie_ws/build/descy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/blazar/workspaces/cartip_ws/install/ralpoley:/home/blazar/workspaces/cartip_ws/install/cart_pole_optimal_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/blazar/workspaces/dobbie_ws/build/descy

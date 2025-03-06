@@ -1,0 +1,4 @@
+source;share/dobot_moveit_config/local_setup.bash
+source;share/dobot_moveit_config/local_setup.dsv
+source;share/dobot_moveit_config/local_setup.sh
+source;share/dobot_moveit_config/local_setup.zsh

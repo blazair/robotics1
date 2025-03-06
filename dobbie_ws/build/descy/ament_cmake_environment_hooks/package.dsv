@@ -1,0 +1,4 @@
+source;share/descy/local_setup.bash
+source;share/descy/local_setup.dsv
+source;share/descy/local_setup.sh
+source;share/descy/local_setup.zsh

@@ -1,0 +1,35 @@
+[0.007s] Invoking command in '/home/blazar/workspaces/dobbie_ws/build/descy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/blazar/workspaces/cartip_ws/install/ralpoley:/home/blazar/workspaces/cartip_ws/install/cart_pole_optimal_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/blazar/workspaces/dobbie_ws/build/descy -- -j16 -l16
+[0.026s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.169s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.186s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.192s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.199s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.208s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.225s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.235s] -- Found xacro: 2.0.11 (/opt/ros/jazzy/share/xacro/cmake)
+[0.238s] -- Found robot_state_publisher: 3.3.3 (/opt/ros/jazzy/share/robot_state_publisher/cmake)
+[0.314s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.317s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.395s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.408s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.423s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.650s] [31mCMake Error at CMakeLists.txt:14 (find_package):
+[0.651s]   By not providing "Findjoint_state_publisher_gui.cmake" in CMAKE_MODULE_PATH
+[0.651s]   this project has asked CMake to find a package configuration file provided
+[0.651s]   by "joint_state_publisher_gui", but CMake did not find one.
+[0.651s] 
+[0.651s]   Could not find a package configuration file provided by
+[0.651s]   "joint_state_publisher_gui" with any of the following names:
+[0.651s] 
+[0.651s]     joint_state_publisher_guiConfig.cmake
+[0.651s]     joint_state_publisher_gui-config.cmake
+[0.651s] 
+[0.651s]   Add the installation prefix of "joint_state_publisher_gui" to
+[0.651s]   CMAKE_PREFIX_PATH or set "joint_state_publisher_gui_DIR" to a directory
+[0.651s]   containing one of the above files.  If "joint_state_publisher_gui" provides
+[0.651s]   a separate development package or SDK, be sure it has been installed.
+[0.651s] 
+[0.651s] [0m
+[0.651s] -- Configuring incomplete, errors occurred!
+[0.656s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.657s] Invoked command in '/home/blazar/workspaces/dobbie_ws/build/descy' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/blazar/workspaces/cartip_ws/install/ralpoley:/home/blazar/workspaces/cartip_ws/install/cart_pole_optimal_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/blazar/workspaces/dobbie_ws/build/descy -- -j16 -l16
